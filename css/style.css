@@ -1015,6 +1015,10 @@ footer, .footer {
 		font-weight: 600;
 	}
 
+	.we-guarantee {
+		margin-top: 76px;
+	}
+
 	.project-in-digits .h3, .amount-and-prices p, .amount-and-prices .p {
 		font-size: 16px;
 	}
