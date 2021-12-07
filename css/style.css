@@ -498,6 +498,9 @@ nav.navbar {
 }
 
 .detailed-consultationem form {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
 	max-width: 420px;	
 	width: 100%;
 	margin: 0 auto;
@@ -1002,6 +1005,11 @@ footer, .footer {
 	.contacts .map-vs-cntct-info {
 		flex-direction: column;
 	}
+
+	.bg-half-green {
+
+	}
+
 	.project-in-digits {
 		clip-path: polygon(0 0%, 100% 0, 100% 100%, 0 100%);
 		background-position: 47% center;
@@ -1031,8 +1039,18 @@ footer, .footer {
 		margin-bottom: 67px;
 	}
 
-	.bg-half-green {
 
+	.get-consultation{
+		font-size: 17px;
+	}
+
+
+	.pr-xs {
+		padding-right: 15px;
+	}
+
+	.pl-xs {
+		padding-left: 15px;
 	}
 
 	.slider-license-docs .item img {
