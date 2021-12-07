@@ -1039,18 +1039,12 @@ footer, .footer {
 		margin-bottom: 67px;
 	}
 
-
 	.get-consultation{
 		font-size: 17px;
 	}
 
-
-	.pr-xs {
-		padding-right: 15px;
-	}
-
-	.pl-xs {
-		padding-left: 15px;
+	.px-xs {
+		padding: 0 15px;
 	}
 
 	.slider-license-docs .item img {
