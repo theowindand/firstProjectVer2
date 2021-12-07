@@ -539,10 +539,9 @@ nav.navbar {
     padding: 16px;
     background: #B8EE46;
     font-size: 20px;
-    color: #000;
+    color: #333333;
     text-decoration: none;
 }
-
 
 .detailed-consultationem h6 {
 	font-size: 18px;
@@ -992,7 +991,19 @@ footer, .footer {
 	nav {
 		display: none;
 	}
-	
+
+	.slider-services .slick-dots {
+		display: block !important;
+	}
+
+	.slider-services .slick-dots {
+	    bottom: 5px;
+	}
+
+	.slider-services .item {
+	    padding: 40px 30px 75px 30px;
+	}
+		
 	.slider-services .slick-next.slick-arrow:before {
 		display: none !important;
 	}
