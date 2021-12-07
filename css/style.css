@@ -382,6 +382,10 @@ nav.navbar {
 	font-size: 1.875rem;
 }
 
+.project-in-digits p {
+	font-family: 'Montserrat', sans-serif;
+}
+
 .project-in-digits a {
 	padding: 16px 47px !important;
 	margin-bottom: 5px;
@@ -972,11 +976,16 @@ footer, .footer {
 }
 
 
-@media screen and (max-width: 479px) {
+@media only screen and (max-width: 479px) {
 
 	h2 {
 		font-size: 24px !important;
 	}
+
+	p {
+		font-size: 16px;
+	}
+
 	nav {
 		display: none;
 	}
@@ -984,6 +993,7 @@ footer, .footer {
 	.slider-services .slick-next.slick-arrow:before {
 		display: none !important;
 	}
+
 	.slick-next.slick-arrow,
 	.slick-prev.slick-arrow {
 		display: none !important;
@@ -991,5 +1001,37 @@ footer, .footer {
 
 	.contacts .map-vs-cntct-info {
 		flex-direction: column;
+	}
+	.project-in-digits {
+		clip-path: polygon(0 0%, 100% 0, 100% 100%, 0 100%);
+		background-position: 47% center;
+	}
+
+	.project-in-digits h2 {
+		margin-top: 51px;
+	}
+
+	.project-in-digits p {
+		font-weight: 600;
+	}
+
+	.project-in-digits .h3, .amount-and-prices p, .amount-and-prices .p {
+		font-size: 16px;
+	}
+
+	.big-digit {
+		font-size: 100px;
+	}
+
+	.project-in-digits a {
+		margin-bottom: 67px;
+	}
+
+	.bg-half-green {
+
+	}
+
+	.slider-license-docs .item img {
+		margin: 0 auto;
 	}
 }
