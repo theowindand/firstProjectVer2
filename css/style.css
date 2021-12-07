@@ -975,10 +975,21 @@ footer, .footer {
 @media screen and (max-width: 479px) {
 
 	h2 {
-		font-size: 32px !important;
+		font-size: 24px !important;
 	}
 	nav {
 		display: none;
 	}
 	
+	.slider-services .slick-next.slick-arrow:before {
+		display: none !important;
+	}
+	.slick-next.slick-arrow,
+	.slick-prev.slick-arrow {
+		display: none !important;
+	}
+
+	.contacts .map-vs-cntct-info {
+		flex-direction: column;
+	}
 }
