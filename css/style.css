@@ -1032,6 +1032,8 @@ footer, .footer {
 
 	.project-in-digits p {
 		font-weight: 600;
+		max-width: 270px;
+		margin: 0 auto;
 	}
 
 	.we-guarantee {
