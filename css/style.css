@@ -806,6 +806,10 @@ nav.navbar {
 	margin-bottom: 0;
 }
 
+.our-address, .operating-mode {
+	color: #333333;
+}
+
 .contacts-and-schedule ul li {
 	list-style-type: none;
 }
