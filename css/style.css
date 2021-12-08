@@ -1036,6 +1036,14 @@ footer, .footer {
 		margin: 0 auto;
 	}
 
+	.project-in-digits .h3:first-child {
+		margin-bottom: 30px;
+	}
+
+	.project-in-digits .h3 {
+		max-width: 100%;
+	}
+
 	.we-guarantee {
 		margin-top: 76px;
 	}
