@@ -361,7 +361,7 @@ nav.navbar {
 					rgba(51, 51, 51, 0.7), 
 					rgba(51, 51, 51, 0.7)
 				),
-				url('../img/8iIIjeQSmIU2.jpg');
+				url('../img/8iIIjeQSmIU2.png');
 	background-repeat: no-repeat;
 	clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 85%);
 	height: auto;
@@ -380,6 +380,10 @@ nav.navbar {
 .project-in-digits .h3 {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 1.875rem;
+}
+
+.project-in-digits p {
+	font-family: 'Montserrat', sans-serif;
 }
 
 .project-in-digits a {
@@ -494,6 +498,9 @@ nav.navbar {
 }
 
 .detailed-consultationem form {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
 	max-width: 420px;	
 	width: 100%;
 	margin: 0 auto;
@@ -532,10 +539,9 @@ nav.navbar {
     padding: 16px;
     background: #B8EE46;
     font-size: 20px;
-    color: #000;
+    color: #333333;
     text-decoration: none;
 }
-
 
 .detailed-consultationem h6 {
 	font-size: 18px;
@@ -972,13 +978,88 @@ footer, .footer {
 }
 
 
-@media screen and (max-width: 479px) {
+@media only screen and (max-width: 479px) {
 
 	h2 {
-		font-size: 32px !important;
+		font-size: 24px !important;
 	}
+
+	p {
+		font-size: 16px;
+	}
+
 	nav {
 		display: none;
+	}
+
+	.slider-services .slick-dots {
+		display: block !important;
+	}
+
+	.slider-services .slick-dots {
+	    bottom: 5px;
+	}
+
+	.slider-services .item {
+	    padding: 40px 30px 75px 30px;
+	}
+		
+	.slider-services .slick-next.slick-arrow:before {
+		display: none !important;
+	}
+
+	.slick-next.slick-arrow,
+	.slick-prev.slick-arrow {
+		display: none !important;
+	}
+
+	.contacts .map-vs-cntct-info {
+		flex-direction: column;
+	}
+
+	.bg-half-green {
+
+	}
+
+	.project-in-digits {
+		clip-path: polygon(0 0%, 100% 0, 100% 100%, 0 100%);
+		background-position: 47% center;
+	}
+
+	.project-in-digits h2 {
+		margin-top: 51px;
+	}
+
+	.project-in-digits p {
+		font-weight: 600;
+	}
+
+	.we-guarantee {
+		margin-top: 76px;
+	}
+
+	.project-in-digits .h3, .amount-and-prices p, .amount-and-prices .p {
+		font-size: 16px;
+	}
+
+	.big-digit {
+		font-size: 100px;
+	}
+
+	.project-in-digits a {
+		margin-bottom: 67px;
+	}
+
+	.get-consultation{
+		font-size: 17px;
+	}
+
+	.px-xs {
+		padding: 0 15px;
+	}
+
+	.slider-license-docs .item img {
+		margin: 0 auto;
 	}
 	
 }
